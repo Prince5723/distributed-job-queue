@@ -1,0 +1,24 @@
+{
+  "name": "distributed-job-queue",
+  "version": "1.0.0",
+  "description": "Production-grade distributed job queue system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["job-queue", "worker-threads", "distributed"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "pino-http": "^8.6.1",
+    "nodemailer": "^6.9.9",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
